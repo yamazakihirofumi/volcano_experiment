@@ -61,9 +61,6 @@ Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 
 Then you can join any number of worker nodes by running the following on each as root:
 
-kubeadm join 192.168.1.110:6443 --token t9560h.od7sjozpflzb51y6 \
-	--discovery-token-ca-cert-hash sha256:ca8b014276bbb7ca5c58a993472e3ffb13885d1f6d5aa64449553a587afdc55a 
-
 
 $$$ Set up master node
     Execute the following command to install the calico network plugin on the cluster.
